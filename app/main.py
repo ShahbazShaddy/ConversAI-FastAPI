@@ -19,5 +19,24 @@ def chat(request: ChatRequest):
 @app.get("/", response_class=HTMLResponse)
 def read_root():
     with open("frontend/index.html") as f:
+
         return HTMLResponse(content=f.read())
         #Tayyba Aamir  
+
+
+        return HTMLResponse(content=f.read()
+
+
+        return HTMLResponse(content=f.read())
+       
+
+
+
+
+
+       
+    return HTMLResponse(content=f.read()) 
+
+return HTMLResponse(content=f.read())
+
+
