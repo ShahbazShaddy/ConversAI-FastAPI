@@ -18,3 +18,4 @@ ENV ENV_PATH=/app/.env
 
 # Run FastAPI server using uvicorn
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Laiba
