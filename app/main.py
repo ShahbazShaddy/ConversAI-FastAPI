@@ -21,4 +21,7 @@ def read_root():
     with open("frontend/index.html") as f:
         return HTMLResponse(content=f.read())
         # Muhammad Arslan
-        
+       
+    return HTMLResponse(content=f.read()) 
+#Saif-ur-Rehman
+return HTMLResponse(content=f.read())
