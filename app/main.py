@@ -20,5 +20,11 @@ def chat(request: ChatRequest):
 def read_root():
     with open("frontend/index.html") as f:
         return HTMLResponse(content=f.read())
+
         #Ayan Ahmed
-        
+
+
+       
+    return HTMLResponse(content=f.read()) 
+
+return HTMLResponse(content=f.read())
