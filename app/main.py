@@ -21,7 +21,12 @@ def read_root():
     with open("frontend/index.html") as f:
 
         return HTMLResponse(content=f.read())
-        #taaha butt
+
+# Name: Muneeb Shafique
+
+
+        return HTMLResponse(content=f.read())
+
 
 
         return HTMLResponse(content=f.read())
@@ -70,6 +75,7 @@ def read_root():
     return HTMLResponse(content=f.read()) 
 
 return HTMLResponse(content=f.read())
+
 
 
 
