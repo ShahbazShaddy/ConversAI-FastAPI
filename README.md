@@ -3,7 +3,7 @@
 # Groq Conversational Chatbot using FastAPI
 
 ## Overview
-This project is a lightweight and scalable conversational chatbot that utilizes **Groq** for natural language processing and **FastAPI** as the backend. The chatbot handles user queries and provides conversational responses with an interactive frontend built using HTML, CSS, and JavaScript. It is designed for seamless interaction and easy scalability, making it suitable for various conversational use cases.
+This project is a lightweight and scalable conversational chatbot that utilizes **Groq** for natural language processing and **FastAPI** as the backend. The chatbot handles user queries and provides conversational responses with an interactive frontend built using HTML, CSS, and JavaScript. It is designed for seamless interaction and easy scalability, making it suitable for conversational use cases.
 
 ## Key Features
 - **FastAPI Backend**: High-performance backend framework that enables fast development and scalability.
