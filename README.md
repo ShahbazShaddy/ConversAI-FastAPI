@@ -3,7 +3,7 @@
 # Groq Conversational Chatbot using FastAPI
 
 ## Overview
-This project is a lightweight and scalable conversational chatbot that utilizes **Groq** for natural language processing and **FastAPI** as the backend. The chatbot handles user queries and provides conversational responses with an interactive frontend built using HTML, CSS, and JavaScript. It is designed for seamless interaction and easy scalability, making it suitable for various conversational use cases.
+This project is a lightweight and scalable conversational chatbot that utilizes **Groq** for natural language processing and **FastAPI** as the backend. The chatbot handles user queries and provides conversational responses with an interactive frontend built using HTML, CSS, and JavaScript. It is designed for seamless interaction and easy scalability, making it suitable for conversational use cases.
 
 ## Key Features
 - **FastAPI Backend**: High-performance backend framework that enables fast development and scalability.
@@ -50,7 +50,7 @@ Make sure you have the following installed:
     ```
 
 3. Set up your environment variables:
-   - Create an `.env` file inside the `app/` folder.
+   - Create a `.env` file inside the `app/` folder.
    - Add your Groq API key:
      ```bash
      GROQ_API_KEY=your_groq_api_key_here
@@ -67,15 +67,15 @@ Make sure you have the following installed:
 1. **Frontend**: The user interacts with the web interface (HTML, CSS, JavaScript) by submitting a message.
 2. **Backend**: The message is sent to the FastAPI backend for processing.
 3. **Groq API**: The FastAPI backend sends the message to the Groq API, which processes it and returns a response.
-4. **Response**: The chatbot sends the response back to the frontend, where the user can view the reply and continue the conversation.
+4. **Response**: The chatbot sends the response back to the front end, where the user can view the reply and continue the conversation.
 
 ## Future Enhancements
 - **Persistent Chat History**: Store chat conversations in a database for future reference.
 - **Enhanced UI**: Improve the frontend design with additional styling and interactive elements.
-- **Customizable Models**: Allow users to select from multiple AI models for different conversational experiences.
+- **Customizable Models**: Users can select from multiple AI models for different conversational experiences.
 
 ## Contributing
-Contributions are welcome! Feel free to fork this project and submit a pull request with any improvements or suggestions. Please follow the standard GitHub workflow for contributing.
+Contributions are welcome! You can fix this project and submit a pull request with any improvements or suggestions. Please follow the standard GitHub workflow for contributing.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.

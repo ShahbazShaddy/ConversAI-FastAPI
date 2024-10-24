@@ -18,71 +18,8 @@ def chat(request: ChatRequest):
 # Serve the HTML file at the root URL
 @app.get("/", response_class=HTMLResponse)
 def read_root():
-    with open("frontend/index.html") as f:
-
-        return HTMLResponse(content=f.read())
-
-# Name: Muneeb Shafique
-
-
-        return HTMLResponse(content=f.read())
-
-
-
-        return HTMLResponse(content=f.read())
-
-
-
-        return HTMLResponse(content=f.read())
-      
-
-
-        return HTMLResponse(content=f.read()) 
-
-
-        return HTMLResponse(content=f.read())
-
-
-
-        return HTMLResponse(content=f.read())
-     
-
-
-        return HTMLResponse(content=f.read())
-  
-
-
-        return HTMLResponse(content=f.read())
-
-
-
-
-        return HTMLResponse(content=f.read())
-
-
-
-        return HTMLResponse(content=f.read()
-
-
-        return HTMLResponse(content=f.read())
-       
-
-
-
-
-
-       
-    return HTMLResponse(content=f.read()) 
-
-return HTMLResponse(content=f.read())
-
-
-
-
-
-
-
-
-
-
-
+    try:
+        with open("frontend/index.html") as f:
+            return HTMLResponse(content=f.read())
+    except FileNotFoundError:
+        return HTMLResponse(content="Index file not found.", status_code=404)
